@@ -1,0 +1,11 @@
+{
+  "name": "meute",
+  "version": "1.0.0",
+  "description": "site meute",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css --style compressed"
+  },
+  "author": "hanilo",
+  "license": "ISC"
+}
