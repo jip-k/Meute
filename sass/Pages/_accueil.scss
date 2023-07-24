@@ -1,0 +1,242 @@
+#accueil{
+      display: flex;
+      flex-direction: row;
+}
+
+#accueil_video{
+      width: 60%
+}
+
+#annonce{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 30px 10px 0px 10px;
+      background-color: $couleur3;
+      border: 3px $couleur1 solid;
+      border-radius: 5px;
+      width: 31.8%;
+      font-size: 0.8em;
+}
+
+#annonce p{
+      margin: 0;
+}
+
+#contenu{
+      position: absolute;
+      text-align: center;
+      width: 83.3%;
+      background-color: white;
+      padding-top: 30px;
+}
+
+.video_corp{
+      height:500px;
+}
+
+.section{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 70px;
+      margin-top: 40px;
+}
+
+.section_element{
+      display: flex;
+      position: relative;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 70%;
+}
+
+#section_forma{
+      align-items: start;
+}
+
+.insta{
+      display: flex;
+      flex-direction: column;
+      text-align: start;
+      margin: 50px;
+}
+
+.insta img{
+      max-width: 328px;
+      max-height: 328px;
+}
+
+#section_bas{
+      display: flex;
+      flex-direction: row;
+}
+
+#saison{
+      margin-top: 60px;
+}
+
+#saison_img{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      img{
+            margin: 0px 40px 0px 40px;
+      }
+}
+
+#events{
+      width: 98%;
+      margin-bottom: 40px;
+}
+
+#cadre_event{
+      width: 90%;
+}
+
+.edition{
+      position: relative;
+  }
+
+.edition_text{
+      position: absolute;
+      height: 100%; /** Remplir l'image en longueur*/
+      bottom: 5%; /*** FAIRE MONTER LE BLOCK POUR QUIL TIENNE AU NIVEAU DE LIMAGE ***/
+      padding: 5px; 
+      font-size: 0.55em;
+      line-height: 20px;
+      opacity: 0;
+      transition: all 0.4s ease;
+      a {
+            color: $couleur2;
+      }
+}
+
+.edition:hover .edition_text {
+      color: white;
+      background-color: $couleur3;
+      opacity: 1;
+      bottom: 0;
+  }
+
+.event_img{
+      display: flex;
+      flex-direction: row;
+}
+
+/***********************RESPONSIVE**********************************/
+
+@media (max-width: 767px)
+{
+      /*HEADER*/
+header{
+      img{
+            max-width: 70px;
+      }
+      ul{
+            padding-right: 30px;
+      }
+      li{
+            font-size: 0.9em;
+      }
+}
+#accueil{
+      flex-direction: column;
+
+}
+
+#accueil_video{
+      width: 100%;
+      margin-left: 10px;
+}
+
+#annonce{
+      width: 98%;
+}
+
+.logonoir{
+      display: none;
+}
+
+.corp{
+      width: 100%;
+      padding: 0;
+      margin-left: 0;
+      margin-right: 0;
+}
+
+.section_element{
+      display: flex;
+      flex-direction: column;
+}
+
+#contenu{
+      width: 100%;
+}
+
+/**************FOOTER*****************/
+
+footer{
+      margin: 0;
+      padding-left: 5px;
+  }
+  
+  .poteaux{
+    display: none;
+  }
+  
+  footer section{
+      flex-direction: column;
+  }
+  
+  .reseaux{
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      margin-right: 0;
+      }
+
+}
+
+/************************TABLETTES********************************/
+
+@media (min-width: 768px) and (max-width: 1024px)
+{
+      #accueil{
+            flex-direction: column;
+      
+      }
+      
+      #accueil_video{
+            width: 100%;
+            margin-left: 5px;
+      }
+      
+      #annonce{
+            width: 98%;
+      }
+      
+      .logonoir{
+            display: none;
+      }
+
+      .corp{
+            width: 100%;
+            padding: 0;
+            margin-left: 0;
+            margin-right: 0;
+      }
+      
+      .section_element{
+            display: flex;
+            flex-direction: column;
+      }
+      
+      #contenu{
+            width: 100%;
+      }
+}
+

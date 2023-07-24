@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Etna';
+    src : url('/Polices/Etna.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Moon';
+    src : url('/Polices/Moon\ Light.otf') format('otf');
+}
+
+button{
+    background-color: $couleur2;
+    border: none;
+    max-width: 40%;
+    max-height: 45px;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 9px;
+    text-align: center;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    z-index: 3;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+button:active{
+    transform: scale(1);
+}
+
+.element button{
+    position: absolute;
+}
+
+img, video {
+    filter: grayscale(25%);
+}
+
+h1, h2{
+    color: $couleur2;
+    font-size: 2em;
+}
+
+h3{
+    color: $couleur3;
+}
+
+/*****************************ALIGNER MENTIONS LEGALES**********************************/
+.ml {
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+a:hover{
+    color: $couleur2;
+}
+
+button a:hover{
+    color: $couleur3;
+}
+
+a, .cadre, #annonce{
+    color: white;
+    word-spacing: normal;
+}
+
+h1, h2, h3, a, p{
+    font-family: 'Etna', sans-serif;
+    letter-spacing: 5px;
+}
+
+p{
+    font-family: 'Moon', sans-serif;
+}

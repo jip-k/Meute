@@ -1,0 +1,54 @@
+body{
+    background-color: $couleur1;
+}
+
+.corp{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-left: 65px;
+}
+
+.cadre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $couleur3;
+    line-height: 20px;
+    padding: 15px;
+    margin: 10px;
+    text-align: justify;
+    border-radius: 4px;
+    box-shadow: 5px 5px 2px 1px #e9e9e7;
+    font-size: 0.7em;
+}
+
+footer{
+    position: relative;
+    background-color: black;
+    color: #a6dff4;
+    padding: 10px;
+}
+
+footer section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.reseaux {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+}
+
+
+
+.poteaux {
+    width: 150px;
+    height: 150px;
+    border-left: 1px solid #a6dff4;
+    border-right: 1px solid #a6dff4;
+    margin-right: 70px;
+}
