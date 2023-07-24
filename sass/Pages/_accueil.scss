@@ -164,7 +164,7 @@ header{
 .corp{
       width: 100%;
       padding: 0;
-      margin-left: 0;
+      margin-left: 5px;
       margin-right: 0;
 }
 
@@ -175,6 +175,22 @@ header{
 
 #contenu{
       width: 100%;
+}
+
+.event_img{
+      flex-direction: column;
+}
+
+#saison_img img{
+      width: 400px;
+}
+
+#section_forma{
+      margin-right: 70px;
+}
+
+#events {
+     margin-right: 10px;
 }
 
 /**************FOOTER*****************/
@@ -237,6 +253,10 @@ footer{
       
       #contenu{
             width: 100%;
+      }
+
+      .event_img{
+            flex-direction: column;
       }
 }
 
