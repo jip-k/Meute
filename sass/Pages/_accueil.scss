@@ -133,14 +133,17 @@
 {
       /*HEADER*/
       header{
+            font-size: 0.5em;
             img{
                   max-width: 70px;
             }
             ul{
                   padding-right: 30px;
+                  margin-top: 10px;
             }
             li{
                   font-size: 0.9em;
+                  margin: 0;
             }
       }
 

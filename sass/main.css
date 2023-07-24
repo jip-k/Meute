@@ -291,14 +291,19 @@ footer section {
 /***********************RESPONSIVE**********************************/
 @media (max-width: 767px) {
   /*HEADER*/
+  header {
+    font-size: 0.5em;
+  }
   header img {
     max-width: 70px;
   }
   header ul {
     padding-right: 30px;
+    margin-top: 10px;
   }
   header li {
     font-size: 0.9em;
+    margin: 0;
   }
   #logo {
     margin-right: 0;
