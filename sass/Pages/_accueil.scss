@@ -171,6 +171,7 @@ header{
 .section_element{
       display: flex;
       flex-direction: column;
+      width: 90%;
 }
 
 #contenu{
@@ -182,15 +183,15 @@ header{
 }
 
 #saison_img img{
-      width: 400px;
+      width: 80%;
 }
 
-#section_forma{
-      margin-right: 70px;
+#events{
+      width: 90%;
 }
 
-#events {
-     margin-right: 10px;
+#fondatrices img{
+      width: 90%;
 }
 
 /**************FOOTER*****************/

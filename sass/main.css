@@ -322,6 +322,7 @@ footer section {
   .section_element {
     display: flex;
     flex-direction: column;
+    width: 90%;
   }
   #contenu {
     width: 100%;
@@ -330,13 +331,13 @@ footer section {
     flex-direction: column;
   }
   #saison_img img {
-    width: 400px;
-  }
-  #section_forma {
-    margin-right: 70px;
+    width: 80%;
   }
   #events {
-    margin-right: 10px;
+    width: 90%;
+  }
+  #fondatrices img {
+    width: 90%;
   }
   /**************FOOTER*****************/
   footer {
