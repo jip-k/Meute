@@ -132,17 +132,30 @@
 @media (max-width: 767px)
 {
       /*HEADER*/
-header{
-      img{
-            max-width: 70px;
+      header{
+            img{
+                  max-width: 70px;
+            }
+            ul{
+                  padding-right: 30px;
+            }
+            li{
+                  font-size: 0.9em;
+            }
       }
-      ul{
-            padding-right: 30px;
-      }
-      li{
-            font-size: 0.9em;
-      }
+
+#logo{
+      margin-right: 0;
 }
+
+header{
+      padding: 0;
+
+ul{
+      flex-direction: column;
+}
+}
+
 #accueil{
       flex-direction: column;
 

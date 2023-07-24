@@ -300,6 +300,15 @@ footer section {
   header li {
     font-size: 0.9em;
   }
+  #logo {
+    margin-right: 0;
+  }
+  header {
+    padding: 0;
+  }
+  header ul {
+    flex-direction: column;
+  }
   #accueil {
     flex-direction: column;
   }
