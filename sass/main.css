@@ -293,11 +293,13 @@ footer section {
   /*HEADER*/
   header {
     font-size: 0.5em;
+    padding: 0;
   }
   header img {
     max-width: 70px;
   }
   header ul {
+    flex-direction: column;
     padding-right: 30px;
     margin-top: 10px;
   }
@@ -307,12 +309,6 @@ footer section {
   }
   #logo {
     margin-right: 0;
-  }
-  header {
-    padding: 0;
-  }
-  header ul {
-    flex-direction: column;
   }
   #accueil {
     flex-direction: column;
@@ -373,12 +369,28 @@ footer section {
 }
 /************************TABLETTES********************************/
 @media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8em;
+    padding: 0;
+  }
+  header img {
+    max-width: 70px;
+  }
+  header ul {
+    padding-right: 30px;
+    margin-top: 10px;
+  }
   #accueil {
     flex-direction: column;
   }
   #accueil_video {
     width: 100%;
     margin-left: 5px;
+  }
+  #logo {
+    margin-right: 0;
   }
   #annonce {
     width: 98%;

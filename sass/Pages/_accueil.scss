@@ -134,10 +134,12 @@
       /*HEADER*/
       header{
             font-size: 0.5em;
+            padding: 0;
             img{
                   max-width: 70px;
             }
             ul{
+                  flex-direction: column;
                   padding-right: 30px;
                   margin-top: 10px;
             }
@@ -149,14 +151,6 @@
 
 #logo{
       margin-right: 0;
-}
-
-header{
-      padding: 0;
-
-ul{
-      flex-direction: column;
-}
 }
 
 #accueil{
@@ -238,6 +232,20 @@ footer{
 
 @media (min-width: 768px) and (max-width: 1024px)
 {
+      header{
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8em;
+            padding: 0;
+            img{
+                  max-width: 70px;
+            }
+            ul{
+                  padding-right: 30px;
+                  margin-top: 10px;
+            }
+      }
+
       #accueil{
             flex-direction: column;
       
@@ -246,6 +254,10 @@ footer{
       #accueil_video{
             width: 100%;
             margin-left: 5px;
+      }
+
+      #logo{
+            margin-right: 0;
       }
       
       #annonce{
